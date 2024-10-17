@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catholic Topics: Controversial or Less-Discussed Issues</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="orthodox-objections.html">Orthodox Objections</a></li>
+                <li><a href="atheist-objections.html">Atheist Objections</a></li>
+                <li><a href="controversial-topics.html">Controversial Topics</a></li>
+                <li><a href="common-prayers.html">Prayers</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-controls">
+            <input type="text" id="searchInput" placeholder="Search topics...">
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="darkModeToggle" class="dark-mode-toggle__checkbox">
+                <label for="darkModeToggle" class="dark-mode-toggle__label"></label>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>This section addresses controversial and contemporary issues from a Catholic perspective, offering insights into the Church's teachings on complex moral and social topics.</p>
+        </section>
+
+        <section id="topics">
+            <h2>Topics</h2>
+            
+            <div class="topic">
+                <h3 class="topic-title">1. The Church's Stand on Abortion</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church upholds the sanctity of human life from conception to natural death, opposing abortion in all cases.</p>
+                    <p>Controversy: This stance conflicts with laws in many countries and arguments for women's reproductive rights.</p>
+                    <p>Catholic perspective: The Church views abortion as a grave moral evil because it ends an innocent human life. While acknowledging the difficult circumstances that can lead to considering abortion, the Church advocates for supporting both mother and child, and promotes alternatives like adoption.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Jeremiah 1:5: "Before I formed you in the womb I knew you, and before you were born I consecrated you."</li>
+                        <li>Psalm 139:13-16: "For it was you who formed my inward parts; you knit me together in my mother's womb."</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2270: "Human life must be respected and protected absolutely from the moment of conception. From the first moment of his existence, a human being must be recognized as having the rights of a person - among which is the inviolable right of every innocent being to life."</li>
+                    </ul>
+                    <strong>Code of Canon Law:</strong>
+                    <ul>
+                        <li>Canon 1398: "A person who procures a completed abortion incurs a latae sententiae excommunication."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">2. The Church's Teaching on Euthanasia and Assisted Suicide</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church opposes euthanasia and assisted suicide, viewing them as violations of the sanctity of human life.</p>
+                    <p>Controversy: There's growing societal acceptance of "death with dignity" and arguments for personal autonomy in end-of-life decisions.</p>
+                    <p>Catholic perspective: While advocating for compassionate palliative care, the Church teaches that intentionally ending life, even to relieve suffering, is morally wrong. It emphasizes the value of human life even in suffering and promotes spiritual and emotional support for the dying.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Exodus 20:13: "You shall not murder."</li>
+                        <li>1 Corinthians 6:19-20: "Or do you not know that your body is a temple of the Holy Spirit within you, which you have from God, and that you are not your own? For you were bought with a price; therefore glorify God in your body."</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2277: "Whatever its motives and means, direct euthanasia consists in putting an end to the lives of handicapped, sick, or dying persons. It is morally unacceptable."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">3. Pornography and Its Effects on the Soul and Society</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church condemns pornography as a grave offense against chastity and human dignity.</p>
+                    <p>Controversy: Pornography is widely available and often defended as a matter of free speech or personal choice.</p>
+                    <p>Catholic perspective: The Church argues that pornography objectifies individuals, distorts the meaning of human sexuality, and can lead to addiction and damaged relationships. It advocates for education on the harms of pornography and support for those struggling with addiction.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Matthew 5:28: "But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart."</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2354: "Pornography consists in removing real or simulated sexual acts from the intimacy of the partners, in order to display them deliberately to third parties. It offends against chastity because it perverts the conjugal act, the intimate giving of spouses to each other."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">4. The Catholic View on Homosexuality and Same-Sex Marriage</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church teaches that homosexual acts are morally disordered, while calling for respect and compassion for individuals with same-sex attraction. It defines marriage as between one man and one woman.</p>
+                    <p>Controversy: This stance conflicts with growing societal acceptance of LGBTQ+ rights and same-sex marriage.</p>
+                    <p>Catholic perspective: While upholding its teaching on sexual ethics, the Church emphasizes the dignity of all persons regardless of sexual orientation. It distinguishes between homosexual orientation (not sinful in itself) and homosexual acts, calling individuals to chastity.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Genesis 2:24: "Therefore a man leaves his father and his mother and clings to his wife, and they become one flesh."</li>
+                        <li>Romans 1:26-27: Paul speaks about same-sex relations as contrary to nature.</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2357: "Homosexuality refers to relations between men or between women who experience an exclusive or predominant sexual attraction toward persons of the same sex. It has taken a great variety of forms through the centuries and in different cultures. Its psychological genesis remains largely unexplained."
+                        </li>
+                        <li>CCC 2358: "The number of men and women who have deep-seated homosexual tendencies is not negligible. This inclination, which is objectively disordered, constitutes for most of them a trial. They must be accepted with respect, compassion, and sensitivity. Every sign of unjust discrimination in their regard should be avoided."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">5. Contraception and Natural Family Planning</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church opposes artificial contraception but supports Natural Family Planning (NFP) as a moral means of family planning.</p>
+                    <p>Controversy: This position is at odds with widespread use and acceptance of contraception in modern society.</p>
+                    <p>Catholic perspective: The Church teaches that contraception separates the unitive and procreative aspects of sexual intercourse. It promotes NFP as a way to responsibly plan families while remaining open to life and respecting the natural cycles of fertility.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Genesis 1:28: "God blessed them, and God said to them, 'Be fruitful and multiply, and fill the earth and subdue it.'"</li>
+                        <li>Genesis 38:9-10: The story of Onan, often interpreted as a condemnation of contraception.</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2370: "Periodic continence, that is, the methods of birth regulation based on self-observation and the use of infertile periods, is in conformity with the objective criteria of morality. These methods respect the bodies of the spouses, encourage tenderness between them, and favor the education of an authentic freedom."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">6. Gender Ideology and the Church's Defense of Sexual Complementarity</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church affirms the biological reality of two sexes and the complementarity of man and woman, rejecting gender ideology that separates gender from biological sex.</p>
+                    <p>Controversy: This stance conflicts with contemporary views on gender identity and transgender rights.</p>
+                    <p>Catholic perspective: While affirming the dignity of all persons, including those experiencing gender dysphoria, the Church maintains that gender is not a social construct but is rooted in biological reality. It advocates for compassionate support without endorsing gender transition.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Genesis 1:27: "So God created humankind in his image, in the image of God he created them; male and female he created them."</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2333: "Everyone, man and woman, should acknowledge and accept his sexual identity. Physical, moral, and spiritual difference and complementarity are oriented toward the goods of marriage and the flourishing of family life."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">7. Divorce and Annulments in the Catholic Church</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church teaches that sacramental marriages are indissoluble but offers annulments in cases where a valid marriage never existed.</p>
+                    <p>Controversy: This stance can be challenging in a society where divorce is common and remarriage is widely accepted.</p>
+                    <p>Catholic perspective: While upholding the permanence of marriage, the Church recognizes that some marriages may have been invalid from the start due to various factors. Annulments declare such marriages null, allowing individuals to marry in the Church.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Mark 10:9: "Therefore what God has joined together, let no one separate."</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 1640: "Thus the marriage bond has been established by God himself in such a way that a marriage concluded and consummated between baptized persons can never be dissolved."</li>
+                    </ul>
+                    <strong>Code of Canon Law:</strong>
+                    <ul>
+                        <li>Canon 1141: "A marriage that is ratum et consummatum can be dissolved by no human power and by no cause, except death."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">8. The Death Penalty and Catholic Social Teaching</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church now teaches that the death penalty is inadmissible because it violates the dignity of the person.</p>
+                    <p>Controversy: This represents a development in Church teaching and conflicts with policies in some countries that maintain capital punishment.</p>
+                    <p>Catholic perspective: While the Church previously allowed for the death penalty in extremely rare cases, it now advocates for non-lethal means of protecting society and allowing for the possibility of redemption. This stance is based on evolving understanding of human dignity and the penal system.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>Genesis 9:6: "Whoever sheds the blood of a human, by a human shall that person's blood be shed; for in his own image God made humankind."</li>
+                        <li>Matthew 5:38-39: "You have heard that it was said, 'An eye for an eye and a tooth for a tooth.' But I say to you, Do not resist an evildoer."</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2267 (revised in 2018): "The death penalty is inadmissible because it is an attack on the inviolability and dignity of the person."</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">9. Masturbation</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church teaches that masturbation is a gravely disordered action and is not in accordance with the proper use of the sexual faculty.</p>
+                    <strong>Biblical Evidence:</strong>
+                    <ul>
+                        <li>1 Corinthians 6:18-20: "Flee from sexual immorality. Every other sin a person commits is outside the body, but the sexually immoral person sins against his own body."</li>
+                    </ul>
+                    <strong>Catechism of the Catholic Church (CCC):</strong>
+                    <ul>
+                        <li>CCC 2352: "By masturbation is to be understood the deliberate stimulation of the genital organs in order to derive sexual pleasure. 'Both the Magisterium of the Church, in the course of a constant tradition, and the moral sense of the faithful have been in no doubt and have firmly maintained that masturbation is an intrinsically and gravely disordered action.' 'The deliberate use of the sexual faculty, for whatever reason, outside of marriage is essentially contrary to its purpose.'"</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">10. Catholic Teachings on War and Peace</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church maintains a Just War doctrine while strongly advocating for peace and diplomatic solutions to conflicts.</p>
+                    <p>Controversy: Balancing the right to self-defense with the call to non-violence can be challenging in modern warfare scenarios.</p>
+                    <p>Catholic perspective: While recognizing the right of nations to defend themselves, the Church emphasizes the pursuit of peace through dialogue and diplomacy. It sets strict conditions for justifying armed conflict and calls for limiting the devastation of war.</p>
+                </div>
+            </div>
+
+            <div class="topic">
+                <h3 class="topic-title">11. Transhumanism and Genetic Modification</h3>
+                <div class="topic-content">
+                    <p>Catholic teaching: The Church is cautious about technologies that aim to enhance human capabilities beyond natural limits or manipulate the human genome.</p>
+                    <p>Controversy: Rapid advancements in biotechnology raise questions about the boundaries of ethical scientific progress.</p>
+                    <p>Catholic perspective: While supporting ethical medical advancements, the Church warns against technologies that might compromise human dignity or create unjust disparities. It emphasizes that human worth is not based on abilities or traits but on inherent dignity as created in God's image.</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <button id="scrollToTop" title="Go to top">↑</button>
+
+    <footer>
+        <p>&copy; 2024 Catholic Topics Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
